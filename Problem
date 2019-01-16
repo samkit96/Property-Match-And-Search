@@ -1,5 +1,3 @@
-As discussed, here's your first challenge. it's an algorithm test. We want you to come up with the best scalable yet simple algorithm to do the following. If we were to build this feature, what you present will be used as a document that I can share with my non-technical team and my technical team.
-
 Problem statement:
 
 Write the most efficient algorithm that helps us determine a list of matches with match percentages for each match between a huge set of properties (sale and rental) and buyer/renter search criteria as and when a new property or a new search criteria is added to our network by an agent.
@@ -28,5 +26,3 @@ If the budget is within min and max budget, budget contribution for the match pe
 If bedroom and bathroom fall between min and max, each will contribute full 20%. If min or max is not given, match percentage varies according to the value.
 All corner cases should be considered and assumptions should be mentioned
 Requirements can be without a min or a max for the budget, bedroom and a bathroom but either min or max would be surely present.
-
-Note: Be as detailed as possible. Please host the Code solution on Github along with a README
