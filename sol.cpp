@@ -125,7 +125,7 @@ vector <property> get_matches(int id, double latitude, double longitude, long lo
 		float match_bathrooms = cal_match_bathrooms(all_properties[i].bathrooms, min_bathrooms, max_bathrooms);
 
 		float net_match = match_radius+match_budget+match_bedrooms+match_bathrooms;
-		if(net_match >= 40.0) {
+		if(net_match >= 40.0 && match_radius != -1.0 && max_budget !=-1.0 && match_bedrooms != -1.0 && match_bathrooms != -1.0) {
 			unsorted_properties.push_back(make_pair(make_pair(net_match, make_pair(match_radius, match_budget)), all_properties[i]));
 		}
 	}
